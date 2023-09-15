@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="City, India"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewLocation"
+        android:text="25°C"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageViewWeatherIcon"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_below="@id/textViewTemperature"
+        android:layout_centerHorizontal="true"
+         />
+
+    <TextView
+        android:id="@+id/textViewWeatherDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewWeatherIcon"
+        android:layout_centerHorizontal="true"
+        android:text="Clear Sky"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewForecastTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewWeatherDescription"
+        android:layout_marginTop="29dp"
+        android:text="Forecast"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewFeelsAlike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewWeatherDescription"
+        android:layout_marginTop="67dp"
+        android:text="----------------"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewWeatherDescription2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewWeatherDescription"
+        android:layout_marginTop="106dp"
+        android:text="----------------"
+        android:textSize="24sp" />
+
+
+</RelativeLayout>
